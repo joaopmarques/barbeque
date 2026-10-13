@@ -73,16 +73,10 @@ The `grilling` skill, for the slow-cook handoff. Without it, Claude asks the har
 
 ## Install
 
-**As a Claude Code plugin** (Claude Code 2.1.275 or later), inside a session:
-
-```
-/plugin install barbeque --marketplace joaopmarques/barbeque
-```
-
-Or from your shell:
+**As a Claude Code plugin** (Claude Code 2.1.275 or later). This plugin lives in the [joaopmarques/claude-plugins](https://github.com/joaopmarques/claude-plugins) marketplace:
 
 ```bash
-claude plugin marketplace add joaopmarques/barbeque
+claude plugin marketplace add joaopmarques/claude-plugins
 claude plugin install barbeque@joaopmarques
 ```
 
