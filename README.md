@@ -2,6 +2,8 @@
 
 A Claude Code skill that grills your plan for you. Claude asks the hard questions, picks its own recommended answer for each one, and serves a short plan. It builds nothing until you say **go**.
 
+Inspired by [Matt Pocock](https://github.com/mattpocock)'s [`grilling` skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md). Barbeque is the same interview, but Claude answers its own questions.
+
 Claude's picks are right most of the time and sometimes totally off. Barbeque shows you every pick, so you can trust the plan in 30 seconds or fix the one bad call.
 
 ## What it does
@@ -69,7 +71,11 @@ Full plan: barbeque-dark-mode-toggle.md
 
 ## Requirements
 
-The `grilling` skill, for the slow-cook handoff. Without it, Claude asks the hard questions in chat.
+Matt Pocock's [`grilling` skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md), for the slow-cook handoff. Without it, Claude asks the hard questions in chat. Install it with:
+
+```bash
+npx skills add mattpocock/skills --skill grilling
+```
 
 ## Install
 
@@ -87,6 +93,10 @@ npx skills add joaopmarques/barbeque
 ```
 
 **By hand:** copy `skills/barbeque/` into `~/.claude/skills/`.
+
+## Credits
+
+The idea and the interview loop come from Matt Pocock's [`grilling` skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md), part of [mattpocock/skills](https://github.com/mattpocock/skills). Go grill with the original too. 🔥
 
 ## License
 
