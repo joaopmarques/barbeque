@@ -1,4 +1,4 @@
-# barbeque
+# 🍖 barbeque
 
 A Claude Code skill that grills your plan for you. Claude asks the hard questions, picks its own recommended answer for each one, and serves a short plan. It builds nothing until you say **go**.
 
