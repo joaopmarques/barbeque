@@ -32,7 +32,7 @@ Then:
 
 - `go`: build from the full plan.
 - Fix a pick, for example "use a cookie, not localStorage": Claude updates the plan and posts a new report.
-- `yes` to a slow cook: Claude runs a normal grilling session on only the 🔥 and 🥩 questions.
+- `yes` to a slow cook: Claude grills you on only the 🔥 and 🥩 questions, one at a time.
 
 To change how deep it goes, give it a number or a list: `bbq this, 5 questions max`.
 
@@ -71,7 +71,7 @@ Full plan: barbeque-dark-mode-toggle.md
 
 ## Requirements
 
-Matt Pocock's [`grilling` skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md), for the slow-cook handoff. Without it, Claude asks the hard questions in chat. Install it with:
+None. Barbeque works on its own. If you also have Matt Pocock's [`grilling` skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md), the slow cook uses it. Install it with:
 
 ```bash
 npx skills add mattpocock/skills --skill grilling

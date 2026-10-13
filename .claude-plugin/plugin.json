@@ -1,7 +1,7 @@
 {
   "name": "barbeque",
   "displayName": "Barbeque",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Grill a plan yourself, auto-accept the recommended answers, and serve a short plan with a decision log plus sauces and sides.",
   "author": {
     "name": "João P. Marques",

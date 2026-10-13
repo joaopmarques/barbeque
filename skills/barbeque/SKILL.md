@@ -1,9 +1,9 @@
 ---
 name: barbeque
-description: Barbeque a plan — grill it yourself, auto-accept your own recommended answers, and return a plan with a decision log plus "sauces and sides". Use when the user says barbeque in any spelling (barbecue, bbq, bar-b-q, BBQ me), or clearly wants Claude to grill the plan and answer the questions itself. A plain "grill me" goes to `grilling`.
+description: Barbeque a plan — grill it yourself, auto-accept your own recommended answers, and return a plan with a decision log plus "sauces and sides". Use when the user says barbeque in any spelling (barbecue, bbq, bar-b-q, BBQ me), or clearly wants Claude to grill the plan and answer the questions itself. A plain "grill me" (the user answers the questions) is not barbeque.
 ---
 
-Grill the plan like `grilling` does, but you play both sides. For each question, pick your recommended answer and move on. Ask the user nothing until the report is out.
+A **grilling** is a relentless interview about a plan: walk the design tree one decision at a time, and give a recommended answer for each question. In barbeque, you play both sides. For each question, pick your recommended answer and move on. Ask the user nothing until the report is out.
 
 ## 1. Self-grill
 
@@ -67,7 +67,7 @@ Keep each table cell short: a few words, one sentence at most. Sort the decision
 **Verdict:**
 
 - Fewer than 3 🔥 Burned / 🥩 Underdone rows, and no 🥩 Underdone on a core decision (scope, audience, what is being built): "😋 **Delicious.** Say **go** and I start." Use a playful line in this spirit.
-- 3 or more 🔥 Burned / 🥩 Underdone rows, or a 🥩 Underdone on a core decision: "🍖 **This one needs a slow cook.** Run `/grilling` on the hard parts?" The ✅ Grilled picks stand.
+- 3 or more 🔥 Burned / 🥩 Underdone rows, or a 🥩 Underdone on a core decision: "🍖 **This one needs a slow cook.** Want me to grill you on the hard parts?" The ✅ Grilled picks stand.
 
 ## 4. Wait
 
@@ -75,4 +75,4 @@ The report is a plan. Start the work only after the user says go or fixes the pi
 
 - On **go**: read the full plan file and build from it.
 - On fixes: update the full plan file, then post a new short report.
-- On slow cook: run `grilling` with only the 🔥 Burned and 🥩 Underdone questions, then update the full plan file.
+- On slow cook: grill the user on only the 🔥 Burned and 🥩 Underdone questions. Ask one question at a time, give your recommended answer, and wait for the reply. If a `grilling` skill is installed, use it for this. Then update the full plan file.
