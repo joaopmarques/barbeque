@@ -69,14 +69,6 @@ Full plan: barbeque-dark-mode-toggle.md
 😋 Delicious. Say go and I start.
 ```
 
-## Requirements
-
-None. Barbeque works on its own. If you also have Matt Pocock's [`grilling` skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md), the slow cook uses it. Install it with:
-
-```bash
-npx skills add mattpocock/skills --skill grilling
-```
-
 ## Install
 
 **As a Claude Code plugin** (Claude Code 2.1.275 or later). This plugin lives in the [joaopmarques/claude-plugins](https://github.com/joaopmarques/claude-plugins) marketplace:
@@ -93,6 +85,14 @@ npx skills add joaopmarques/barbeque
 ```
 
 **By hand:** copy `skills/barbeque/` into `~/.claude/skills/`.
+
+## Requirements
+
+None. Barbeque works on its own. If you also have Matt Pocock's [`grilling` skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md), the slow cook uses it. Install it with:
+
+```bash
+npx skills add mattpocock/skills --skill grilling
+```
 
 ## Credits
 
