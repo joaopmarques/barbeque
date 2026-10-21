@@ -1,5 +1,7 @@
 # 🍖 barbeque
 
+[![skills.sh](https://www.skills.sh/b/joaopmarques/barbeque)](https://www.skills.sh/joaopmarques/barbeque)
+
 A Claude Code skill that grills your plan for you. Claude asks the hard questions, picks its own recommended answer for each one, and serves a short plan. It builds nothing until you say **go**.
 
 Inspired by [Matt Pocock](https://github.com/mattpocock)'s [`grilling` skill](https://github.com/mattpocock/skills/blob/main/skills/productivity/grilling/SKILL.md). Barbeque is the same interview, but Claude answers its own questions.
